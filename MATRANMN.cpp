@@ -6,7 +6,7 @@ int main(){
     for (long long i = 0 ; i < m ; i++){
         for (long long j = 0 ; j < n ; j++){
             cout << 0;
-            if (j != n - 1){
+            if ( (n > 1) && (j != n - 1) ){
                 cout << " ";
             }
         }
